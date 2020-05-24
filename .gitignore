@@ -5,6 +5,11 @@ build/
 !**/src/main/**
 !**/src/test/**
 
+build/**
+.gradle/**
+.idea/**
+out/**
+
 ### STS ###
 .apt_generated
 .classpath
@@ -30,8 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-build/**
-.gradle/**
-.idea/**
-out/**
